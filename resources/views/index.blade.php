@@ -5,8 +5,10 @@
 </head>
 <body>
 
-<h2>Person Table</h2>
 
+<h2>Person Table</h2>
+  <a href="{{route('crud.add')}}">ADD NEW DATA</a>
+</br>
 <table border="1">
   <tr>
     <th>Name</th>
@@ -19,7 +21,7 @@
     <td>25</td>
     <td>Lahore</td>
     <td>
-      <button>Edit</button>
+      <a href="{{route('crud.edit')}}">Edit</a>
       <button>Update</button>
       <button>Delete</button>
     </td>
@@ -54,6 +56,7 @@
       <button>Delete</button>
     </td>
   </tr>
+
 </table>
 
 </body>
