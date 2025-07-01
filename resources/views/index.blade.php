@@ -7,7 +7,9 @@
 
 
 <h2>Person Table</h2>
+
   <a href="{{route('crud.add')}}">ADD NEW DATA</a>
+  
 </br>
 <table border="1">
   <tr>
