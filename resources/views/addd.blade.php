@@ -9,7 +9,7 @@
 
 
 
-<form action="{{ route('crud.store')}}" method="post">
+<form action="{{route('crud.storee')}}" method="post">
     @csrf
   <label>Name:</label>
   <input type="text" name="name"><br><br>
@@ -20,7 +20,7 @@
   <label>City:</label>
   <input type="text" name="city"><br><br>
 
-  <button type="submit" name="action" value="add">Add</button>
+  <button type="submit" name="action" value="add">Submit</button>
 </form>
 
 </body>
