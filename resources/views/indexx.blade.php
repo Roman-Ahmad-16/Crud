@@ -32,7 +32,7 @@
     <td>28</td>
     <td>Karachi</td>
     <td>
-      <button>Edit</button>
+      <a href="{{route('crud.editt')}}">Edit</a>
       <button>Delete</button>
     </td>
   </tr>
@@ -41,7 +41,7 @@
     <td>30</td>
     <td>Islamabad</td>
     <td>
-      <button>Edit</button>
+      <a href="{{route('crud.editt')}}">Edit</a>
       <button>Delete</button>
     </td>
   </tr>
@@ -50,7 +50,7 @@
     <td>23</td>
     <td>Multan</td>
     <td>
-      <button>Edit</button>
+      <a href="{{route('crud.editt')}}">Edit</a>
       <button>Delete</button>
     </td>
   </tr>
