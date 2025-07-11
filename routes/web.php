@@ -22,3 +22,10 @@ Route::get('/addd' , [AboutController :: class , 'addd'])->name('crud.addd');
 Route::post('/storee' , [AboutController :: class , 'storee'])->name('crud.storee');
 Route::get('/editt' , [AboutController :: class , 'editt'])->name('crud.editt');
 Route::post('/updatee' , [AboutController :: class , 'updatee'])->name('crud.updatee');
+
+
+Route::get('/books', [BookController::class, 'index'])->name('book.index');
+Route::get('/books/add', [BookController::class, 'add'])->name('book.add');
+Route::post('/books/store', [BookController::class, 'store'])->name('book.store');
+Route::get('/books/edit', [BookController::class, 'edit'])->name('book.edit');
+Route::post('/books/update', [BookController::class, 'update'])->name('book.update');
