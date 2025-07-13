@@ -19,7 +19,7 @@ class EmployeeController extends Controller
     }
 
     public function eedit(){
-        return view('Eedit');
+        return view('Eedddit');
     }
 
     public function uupdate(){
