@@ -6,23 +6,23 @@ use Illuminate\Http\Request;
 
 class EmployeeController extends Controller
 {
-    public function index(){
-        return view('index');
+    public function iindex(){
+        return view('Eindex');
     }
 
-    public function add(){
-        return view('add');
+    public function aadd(){
+        return view('Eadd');
     }
 
-    public function store(){
+    public function sstore(){
         return redirect()->route('employee.index');
     }
 
-    public function edit($id){
-        return view('edit');
+    public function eedit(){
+        return view('Eedit');
     }
 
-    public function update(Request $request, $id){
+    public function uupdate(){
         return redirect()->route('employee.index');
     }
 }

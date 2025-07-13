@@ -7,7 +7,7 @@
 
 <h2>Edit Employee</h2>
 
-<form action="{{ route('employee.update', ['id' => $id]) }}" method="post">
+<form action="{{ route('employee.update')}}" method="post">
   @csrf
 
   <label>Name:</label>

@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CrudController;
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\BookController;
+use App\Http\Controllers\EmployeeController;
+
 
 Route::get('/', function () {
     return view('welcome');
@@ -36,3 +38,18 @@ Route::get('/books/add', [BookController::class, 'add'])->name('book.add');
 Route::post('/books/store', [BookController::class, 'store'])->name('book.store');
 Route::get('/books/edit', [BookController::class, 'edit'])->name('book.edit');
 Route::post('/books/update', [BookController::class, 'update'])->name('book.update');
+
+
+
+
+
+
+Route::get('/employees', [EmployeeController::class, 'iindex'])->name('employee.index');
+Route::get('/employees/add', [EmployeeController::class, 'aadd'])->name('employee.add');
+Route::post('/employees/store', [EmployeeController::class, 'sstore'])->name('employee.store');
+Route::get('/employees/edit', [EmployeeController::class, 'eedit'])->name('employee.edit');
+Route::post('/employees/update', [EmployeeController::class, 'uupdate'])->name('employee.update');
+
+
+
+

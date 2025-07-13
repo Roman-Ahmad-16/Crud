@@ -21,7 +21,7 @@
     <td>Manager</td>
     <td>Karachi</td>
     <td>
-      <a href="{{ route('employee.edit', ['id' => 1]) }}">Edit</a>
+      <a href="{{ route('employee.edit') }}">Edit</a>
       <button>Delete</button>
     </td>
   </tr>
